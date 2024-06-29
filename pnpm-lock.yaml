@@ -8,6 +8,12 @@ importers:
 
   .:
     dependencies:
+      '@types/fs-extra':
+        specifier: ^11.0.4
+        version: 11.0.4
+      '@types/jsonfile':
+        specifier: ^6.1.4
+        version: 6.1.4
       fs-extra:
         specifier: ^11.2.0
         version: 11.2.0
@@ -18,12 +24,6 @@ importers:
       '@kikiutils/tsconfigs':
         specifier: ^2.2.0
         version: 2.2.0
-      '@types/fs-extra':
-        specifier: ^11.0.4
-        version: 11.0.4
-      '@types/jsonfile':
-        specifier: ^6.1.4
-        version: 6.1.4
       '@types/node':
         specifier: ^20.14.9
         version: 20.14.9
